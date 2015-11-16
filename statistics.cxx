@@ -19,13 +19,11 @@ int main(){
 
    return 0;
 }*/
-#include "stdafx.h"
 #include <iostream>
-#include "stdlib.h"
-#include "conio.h"
+#include <cstdlib>
 #include "time.h"
 #include <iomanip>
-#include "math.h"
+#include <cmath>
 
 
 using namespace std;
@@ -34,13 +32,11 @@ void func_arr(double *p, const int n);
 void func_m_v(double *arrp, double &m, double &v, const int n);
 int main()
 {
-	const int n=3;
+	const int n=100;
 	double arr_x[n];
 	char rep;
 	double m,v;
 
-	cout<<"array start (j/n)";
-	cin>>rep;
 	do{
 		func_arr(arr_x, n);
 		func_m_v(arr_x, m, v, n);
@@ -49,8 +45,8 @@ int main()
 		cout<<"\narray noch mal starten (j/n)";
 		cin>>rep;
 	}while(rep=='j');
-	if(rep='n')
-		cout<<"\nfinish";
+	if(rep=='n')
+		cout<<"\nfinish \n";
     getche();
     return 0;
 }
