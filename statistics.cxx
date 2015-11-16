@@ -21,7 +21,7 @@ int main()
 		func_arr(arr_x, n);
 		func_m_v(arr_x, m, v, n);
 		cout<<"-------"<<endl;
-		cout<<"m: "<<m<<" v: "<<v;
+		cout<<"m: "<<m<<"v: "<<v;
 		cout<<"\n array noch mal starten (j/n)";
 		cin>>rep;
 	}while(rep=='j');
