@@ -42,12 +42,11 @@ int main()
 		func_m_v(arr_x, m, v, n);
 		cout<<"-------"<<endl;
 		cout<<"m: "<<m<<"v: "<<v;
-		cout<<"\narray noch mal starten (j/n)";
+		cout<<"\n array noch mal starten (j/n)";
 		cin>>rep;
 	}while(rep=='j');
 	if(rep=='n')
 		cout<<"\nfinish \n";
-    getche();
     return 0;
 }
 
